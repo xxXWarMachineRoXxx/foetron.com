@@ -1,0 +1,335 @@
+Final checks
+Looking for db archive: file name: backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-db.gz
+Archive is expected to be size: 11616.7 KB: OK
+Looking for plugins archive: file name: backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-plugins.zip
+Archive is expected to be size: 40998.1 KB: OK
+Looking for themes archive: file name: backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-themes.zip
+Archive is expected to be size: 11681.6 KB: OK
+Looking for uploads archive: file name: backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-uploads.zip
+Archive is expected to be size: 297892.6 KB: OK
+Looking for others archive: file name: backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-others.zip
+Archive is expected to be size: 1421.6 KB: OK
+Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+Database
+Unpacking backup... (backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-db.gz, 11.3 Mb)
+Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+Enabling Maintenance mode&#8230;
+Backup of: https://foetron.com
+Content URL: https://foetron.com/wp-content
+Uploads URL: https://foetron.com/wp-content/uploads
+Old table prefix: wp_
+Old ABSPATH: D:\home\site\wwwroot/
+UpdraftPlus plugin slug: updraftplus/updraftplus.php
+Site information: multisite = 0
+Site information: sql_mode =
+New table prefix: c7_
+Processing table (InnoDB): wp_options - will restore as: c7_options
+Atomic restore: dropping original table (wp_options)
+Atomic restore: renaming new table (c7_options) to final table name (wp_options)
+Search and replacing table: wp_options: rows: 668
+Processing table (InnoDB): wp_users - will restore as: c7_users
+Atomic restore: dropping original table (wp_users)
+Atomic restore: renaming new table (c7_users) to final table name (wp_users)
+Search and replacing table: wp_users: rows: 6
+Processing table (InnoDB): wp_usermeta - will restore as: c7_usermeta
+Atomic restore: dropping original table (wp_usermeta)
+Atomic restore: renaming new table (c7_usermeta) to final table name (wp_usermeta)
+Search and replacing table: wp_usermeta: rows: 240
+Processing table (InnoDB): wp_commentmeta - will restore as: c7_commentmeta
+Atomic restore: dropping original table (wp_commentmeta)
+Atomic restore: renaming new table (c7_commentmeta) to final table name (wp_commentmeta)
+Search and replacing table: wp_commentmeta: rows: 8
+Processing table (InnoDB): wp_comments - will restore as: c7_comments
+Atomic restore: dropping original table (wp_comments)
+Atomic restore: renaming new table (c7_comments) to final table name (wp_comments)
+Search and replacing table: wp_comments: rows: 67
+Processing table (InnoDB): wp_links - will restore as: c7_links
+Atomic restore: dropping original table (wp_links)
+Atomic restore: renaming new table (c7_links) to final table name (wp_links)
+Search and replacing table: wp_links: rows: 0
+Processing table (InnoDB): wp_postmeta - will restore as: c7_postmeta
+Database queries processed: 50 in 3.95 seconds
+Database queries processed: 100 in 7.88 seconds
+Atomic restore: dropping original table (wp_postmeta)
+Atomic restore: renaming new table (c7_postmeta) to final table name (wp_postmeta)
+Search and replacing table: wp_postmeta: rows: 12005
+Searching and replacing reached row: 5000
+Searching and replacing reached row: 10000
+Processing table (InnoDB): wp_posts - will restore as: c7_posts
+Database queries processed: 150 in 31.48 seconds
+Atomic restore: dropping original table (wp_posts)
+Atomic restore: renaming new table (c7_posts) to final table name (wp_posts)
+Search and replacing table: wp_posts: rows: 10815
+Searching and replacing reached row: 5000
+Searching and replacing reached row: 10000
+Processing table (InnoDB): wp_term_relationships - will restore as: c7_term_relationships
+Atomic restore: dropping original table (wp_term_relationships)
+Atomic restore: renaming new table (c7_term_relationships) to final table name (wp_term_relationships)
+Search and replacing table: wp_term_relationships: rows: 1399
+Processing table (InnoDB): wp_term_taxonomy - will restore as: c7_term_taxonomy
+Atomic restore: dropping original table (wp_term_taxonomy)
+Atomic restore: renaming new table (c7_term_taxonomy) to final table name (wp_term_taxonomy)
+Search and replacing table: wp_term_taxonomy: rows: 209
+Processing table (InnoDB): wp_termmeta - will restore as: c7_termmeta
+Database queries processed: 200 in 36.57 seconds
+Atomic restore: dropping original table (wp_termmeta)
+Atomic restore: renaming new table (c7_termmeta) to final table name (wp_termmeta)
+Search and replacing table: wp_termmeta: rows: 0
+Processing table (InnoDB): wp_terms - will restore as: c7_terms
+Atomic restore: dropping original table (wp_terms)
+Atomic restore: renaming new table (c7_terms) to final table name (wp_terms)
+Search and replacing table: wp_terms: rows: 209
+Processing table (InnoDB): wp_cleantalk_ac_log - will restore as: c7_cleantalk_ac_log
+Atomic restore: dropping original table (wp_cleantalk_ac_log)
+Atomic restore: renaming new table (c7_cleantalk_ac_log) to final table name (wp_cleantalk_ac_log)
+Search and replacing table: wp_cleantalk_ac_log: rows: 8
+Processing table (InnoDB): wp_cleantalk_no_cookie_data - will restore as: c7_cleantalk_no_cookie_data
+Atomic restore: dropping original table (wp_cleantalk_no_cookie_data)
+Atomic restore: renaming new table (c7_cleantalk_no_cookie_data) to final table name (wp_cleantalk_no_cookie_data)
+Search and replacing table: wp_cleantalk_no_cookie_data: rows: 0
+Processing table (InnoDB): wp_cleantalk_sessions - will restore as: c7_cleantalk_sessions
+Atomic restore: dropping original table (wp_cleantalk_sessions)
+Atomic restore: renaming new table (c7_cleantalk_sessions) to final table name (wp_cleantalk_sessions)
+Search and replacing table: wp_cleantalk_sessions: rows: 988
+Processing table (InnoDB): wp_cleantalk_sfw - will restore as: c7_cleantalk_sfw
+Atomic restore: dropping original table (wp_cleantalk_sfw)
+Atomic restore: renaming new table (c7_cleantalk_sfw) to final table name (wp_cleantalk_sfw)
+Search and replacing table: wp_cleantalk_sfw: rows: 15
+Processing table (InnoDB): wp_cleantalk_sfw_logs - will restore as: c7_cleantalk_sfw_logs
+Atomic restore: dropping original table (wp_cleantalk_sfw_logs)
+Atomic restore: renaming new table (c7_cleantalk_sfw_logs) to final table name (wp_cleantalk_sfw_logs)
+Search and replacing table: wp_cleantalk_sfw_logs: rows: 169
+Processing table (InnoDB): wp_cleantalk_spamscan_logs - will restore as: c7_cleantalk_spamscan_logs
+Atomic restore: dropping original table (wp_cleantalk_spamscan_logs)
+Atomic restore: renaming new table (c7_cleantalk_spamscan_logs) to final table name (wp_cleantalk_spamscan_logs)
+Search and replacing table: wp_cleantalk_spamscan_logs: rows: 0
+Processing table (InnoDB): wp_cleantalk_ua_bl - will restore as: c7_cleantalk_ua_bl
+Atomic restore: dropping original table (wp_cleantalk_ua_bl)
+Atomic restore: renaming new table (c7_cleantalk_ua_bl) to final table name (wp_cleantalk_ua_bl)
+Search and replacing table: wp_cleantalk_ua_bl: rows: 0
+Processing table (InnoDB): wp_cptch_images - will restore as: c7_cptch_images
+Atomic restore: dropping original table (wp_cptch_images)
+Atomic restore: renaming new table (c7_cptch_images) to final table name (wp_cptch_images)
+Search and replacing table: wp_cptch_images: rows: 112
+Processing table (InnoDB): wp_cptch_packages - will restore as: c7_cptch_packages
+Atomic restore: dropping original table (wp_cptch_packages)
+Atomic restore: renaming new table (c7_cptch_packages) to final table name (wp_cptch_packages)
+Search and replacing table: wp_cptch_packages: rows: 12
+Processing table (InnoDB): wp_cptch_whitelist - will restore as: c7_cptch_whitelist
+Atomic restore: dropping original table (wp_cptch_whitelist)
+Atomic restore: renaming new table (c7_cptch_whitelist) to final table name (wp_cptch_whitelist)
+Search and replacing table: wp_cptch_whitelist: rows: 0
+Processing table (InnoDB): wp_download_log - will restore as: c7_download_log
+Atomic restore: dropping original table (wp_download_log)
+Atomic restore: renaming new table (c7_download_log) to final table name (wp_download_log)
+Search and replacing table: wp_download_log: rows: 0
+Processing table (InnoDB): wp_hdflvvideoshare - will restore as: c7_hdflvvideoshare
+Atomic restore: dropping original table (wp_hdflvvideoshare)
+Atomic restore: renaming new table (c7_hdflvvideoshare) to final table name (wp_hdflvvideoshare)
+Search and replacing table: wp_hdflvvideoshare: rows: 0
+Processing table (InnoDB): wp_hdflvvideoshare_language - will restore as: c7_hdflvvideoshare_language
+Atomic restore: dropping original table (wp_hdflvvideoshare_language)
+Atomic restore: renaming new table (c7_hdflvvideoshare_language) to final table name (wp_hdflvvideoshare_language)
+Search and replacing table: wp_hdflvvideoshare_language: rows: 1
+Processing table (InnoDB): wp_hdflvvideoshare_med2play - will restore as: c7_hdflvvideoshare_med2play
+Atomic restore: dropping original table (wp_hdflvvideoshare_med2play)
+Atomic restore: renaming new table (c7_hdflvvideoshare_med2play) to final table name (wp_hdflvvideoshare_med2play)
+Search and replacing table: wp_hdflvvideoshare_med2play: rows: 0
+Processing table (InnoDB): wp_hdflvvideoshare_playlist - will restore as: c7_hdflvvideoshare_playlist
+Atomic restore: dropping original table (wp_hdflvvideoshare_playlist)
+Atomic restore: renaming new table (c7_hdflvvideoshare_playlist) to final table name (wp_hdflvvideoshare_playlist)
+Search and replacing table: wp_hdflvvideoshare_playlist: rows: 0
+Processing table (InnoDB): wp_hdflvvideoshare_settings - will restore as: c7_hdflvvideoshare_settings
+Atomic restore: dropping original table (wp_hdflvvideoshare_settings)
+Atomic restore: renaming new table (c7_hdflvvideoshare_settings) to final table name (wp_hdflvvideoshare_settings)
+Search and replacing table: wp_hdflvvideoshare_settings: rows: 1
+Processing table (MyISAM): wp_hdflvvideoshare_tags - will restore as: c7_hdflvvideoshare_tags
+Atomic restore: dropping original table (wp_hdflvvideoshare_tags)
+Atomic restore: renaming new table (c7_hdflvvideoshare_tags) to final table name (wp_hdflvvideoshare_tags)
+Search and replacing table: wp_hdflvvideoshare_tags: rows: 0
+Processing table (InnoDB): wp_hdflvvideoshare_vgads - will restore as: c7_hdflvvideoshare_vgads
+Atomic restore: dropping original table (wp_hdflvvideoshare_vgads)
+Atomic restore: renaming new table (c7_hdflvvideoshare_vgads) to final table name (wp_hdflvvideoshare_vgads)
+Search and replacing table: wp_hdflvvideoshare_vgads: rows: 0
+Processing table (InnoDB): wp_lps_lockdowns - will restore as: c7_lps_lockdowns
+Atomic restore: dropping original table (wp_lps_lockdowns)
+Database queries processed: 250 in 38.59 seconds
+Atomic restore: renaming new table (c7_lps_lockdowns) to final table name (wp_lps_lockdowns)
+Search and replacing table: wp_lps_lockdowns: rows: 0
+Processing table (InnoDB): wp_lps_login_fails - will restore as: c7_lps_login_fails
+Atomic restore: dropping original table (wp_lps_login_fails)
+Atomic restore: renaming new table (c7_lps_login_fails) to final table name (wp_lps_login_fails)
+Search and replacing table: wp_lps_login_fails: rows: 0
+Processing table (InnoDB): wp_smush_dir_images - will restore as: c7_smush_dir_images
+Atomic restore: dropping original table (wp_smush_dir_images)
+Atomic restore: renaming new table (c7_smush_dir_images) to final table name (wp_smush_dir_images)
+Search and replacing table: wp_smush_dir_images: rows: 0
+Processing table (InnoDB): wp_wfbadleechers - will restore as: c7_wfbadleechers
+Atomic restore: dropping original table (wp_wfbadleechers)
+Atomic restore: renaming new table (c7_wfbadleechers) to final table name (wp_wfbadleechers)
+Search and replacing table: wp_wfbadleechers: rows: 0
+Processing table (InnoDB): wp_wfblockedcommentlog - will restore as: c7_wfblockedcommentlog
+Atomic restore: dropping original table (wp_wfblockedcommentlog)
+Atomic restore: renaming new table (c7_wfblockedcommentlog) to final table name (wp_wfblockedcommentlog)
+Search and replacing table: wp_wfblockedcommentlog: rows: 0
+Processing table (InnoDB): wp_wfblockediplog - will restore as: c7_wfblockediplog
+Atomic restore: dropping original table (wp_wfblockediplog)
+Atomic restore: renaming new table (c7_wfblockediplog) to final table name (wp_wfblockediplog)
+Search and replacing table: wp_wfblockediplog: rows: 118
+Processing table (InnoDB): wp_wfblocks - will restore as: c7_wfblocks
+Atomic restore: dropping original table (wp_wfblocks)
+Atomic restore: renaming new table (c7_wfblocks) to final table name (wp_wfblocks)
+Search and replacing table: wp_wfblocks: rows: 99
+Processing table (InnoDB): wp_wfblocks7 - will restore as: c7_wfblocks7
+Atomic restore: dropping original table (wp_wfblocks7)
+Atomic restore: renaming new table (c7_wfblocks7) to final table name (wp_wfblocks7)
+Search and replacing table: wp_wfblocks7: rows: 196
+Processing table (InnoDB): wp_wfblocksadv - will restore as: c7_wfblocksadv
+Atomic restore: dropping original table (wp_wfblocksadv)
+Atomic restore: renaming new table (c7_wfblocksadv) to final table name (wp_wfblocksadv)
+Search and replacing table: wp_wfblocksadv: rows: 0
+Processing table (InnoDB): wp_wfconfig - will restore as: c7_wfconfig
+Atomic restore: dropping original table (wp_wfconfig)
+Atomic restore: renaming new table (c7_wfconfig) to final table name (wp_wfconfig)
+Search and replacing table: wp_wfconfig: rows: 250
+Processing table (InnoDB): wp_wfcrawlers - will restore as: c7_wfcrawlers
+Atomic restore: dropping original table (wp_wfcrawlers)
+Atomic restore: renaming new table (c7_wfcrawlers) to final table name (wp_wfcrawlers)
+Search and replacing table: wp_wfcrawlers: rows: 37
+Processing table (InnoDB): wp_wffilechanges - will restore as: c7_wffilechanges
+Atomic restore: dropping original table (wp_wffilechanges)
+Atomic restore: renaming new table (c7_wffilechanges) to final table name (wp_wffilechanges)
+Search and replacing table: wp_wffilechanges: rows: 0
+Processing table (InnoDB): wp_wffilemods - will restore as: c7_wffilemods
+Atomic restore: dropping original table (wp_wffilemods)
+Atomic restore: renaming new table (c7_wffilemods) to final table name (wp_wffilemods)
+Search and replacing table: wp_wffilemods: rows: 4085
+Processing table (InnoDB): wp_wfhits - will restore as: c7_wfhits
+Atomic restore: dropping original table (wp_wfhits)
+Atomic restore: renaming new table (c7_wfhits) to final table name (wp_wfhits)
+Search and replacing table: wp_wfhits: rows: 1964
+Processing table (InnoDB): wp_wfhoover - will restore as: c7_wfhoover
+Atomic restore: dropping original table (wp_wfhoover)
+Atomic restore: renaming new table (c7_wfhoover) to final table name (wp_wfhoover)
+Search and replacing table: wp_wfhoover: rows: 0
+Processing table (InnoDB): wp_wfissues - will restore as: c7_wfissues
+Atomic restore: dropping original table (wp_wfissues)
+Atomic restore: renaming new table (c7_wfissues) to final table name (wp_wfissues)
+Search and replacing table: wp_wfissues: rows: 13
+Processing table (InnoDB): wp_wfknownfilelist - will restore as: c7_wfknownfilelist
+Atomic restore: dropping original table (wp_wfknownfilelist)
+Atomic restore: renaming new table (c7_wfknownfilelist) to final table name (wp_wfknownfilelist)
+Search and replacing table: wp_wfknownfilelist: rows: 4085
+Processing table (InnoDB): wp_wfleechers - will restore as: c7_wfleechers
+Atomic restore: dropping original table (wp_wfleechers)
+Atomic restore: renaming new table (c7_wfleechers) to final table name (wp_wfleechers)
+Search and replacing table: wp_wfleechers: rows: 2766
+Processing table (InnoDB): wp_wflivetraffichuman - will restore as: c7_wflivetraffichuman
+Atomic restore: dropping original table (wp_wflivetraffichuman)
+Atomic restore: renaming new table (c7_wflivetraffichuman) to final table name (wp_wflivetraffichuman)
+Search and replacing table: wp_wflivetraffichuman: rows: 41
+Processing table (InnoDB): wp_wflockedout - will restore as: c7_wflockedout
+Atomic restore: dropping original table (wp_wflockedout)
+Atomic restore: renaming new table (c7_wflockedout) to final table name (wp_wflockedout)
+Search and replacing table: wp_wflockedout: rows: 0
+Processing table (InnoDB): wp_wflocs - will restore as: c7_wflocs
+Atomic restore: dropping original table (wp_wflocs)
+Atomic restore: renaming new table (c7_wflocs) to final table name (wp_wflocs)
+Search and replacing table: wp_wflocs: rows: 2
+Processing table (InnoDB): wp_wflogins - will restore as: c7_wflogins
+Atomic restore: dropping original table (wp_wflogins)
+Atomic restore: renaming new table (c7_wflogins) to final table name (wp_wflogins)
+Search and replacing table: wp_wflogins: rows: 235
+Processing table (InnoDB): wp_wfnet404s - will restore as: c7_wfnet404s
+Atomic restore: dropping original table (wp_wfnet404s)
+Atomic restore: renaming new table (c7_wfnet404s) to final table name (wp_wfnet404s)
+Search and replacing table: wp_wfnet404s: rows: 3
+Processing table (InnoDB): wp_wfnotifications - will restore as: c7_wfnotifications
+Atomic restore: dropping original table (wp_wfnotifications)
+Atomic restore: renaming new table (c7_wfnotifications) to final table name (wp_wfnotifications)
+Search and replacing table: wp_wfnotifications: rows: 40
+Processing table (InnoDB): wp_wfpendingissues - will restore as: c7_wfpendingissues
+Atomic restore: dropping original table (wp_wfpendingissues)
+Atomic restore: renaming new table (c7_wfpendingissues) to final table name (wp_wfpendingissues)
+Search and replacing table: wp_wfpendingissues: rows: 0
+Processing table (InnoDB): wp_wfreversecache - will restore as: c7_wfreversecache
+Atomic restore: dropping original table (wp_wfreversecache)
+Atomic restore: renaming new table (c7_wfreversecache) to final table name (wp_wfreversecache)
+Search and replacing table: wp_wfreversecache: rows: 4
+Processing table (InnoDB): wp_wfscanners - will restore as: c7_wfscanners
+Atomic restore: dropping original table (wp_wfscanners)
+Atomic restore: renaming new table (c7_wfscanners) to final table name (wp_wfscanners)
+Search and replacing table: wp_wfscanners: rows: 398
+Processing table (InnoDB): wp_wfsnipcache - will restore as: c7_wfsnipcache
+Atomic restore: dropping original table (wp_wfsnipcache)
+Atomic restore: renaming new table (c7_wfsnipcache) to final table name (wp_wfsnipcache)
+Search and replacing table: wp_wfsnipcache: rows: 0
+Processing table (InnoDB): wp_wfstatus - will restore as: c7_wfstatus
+Atomic restore: dropping original table (wp_wfstatus)
+Atomic restore: renaming new table (c7_wfstatus) to final table name (wp_wfstatus)
+Search and replacing table: wp_wfstatus: rows: 959
+Processing table (InnoDB): wp_wfthrottlelog - will restore as: c7_wfthrottlelog
+Atomic restore: dropping original table (wp_wfthrottlelog)
+Atomic restore: renaming new table (c7_wfthrottlelog) to final table name (wp_wfthrottlelog)
+Search and replacing table: wp_wfthrottlelog: rows: 5
+Processing table (InnoDB): wp_wfvulnscanners - will restore as: c7_wfvulnscanners
+Atomic restore: dropping original table (wp_wfvulnscanners)
+Atomic restore: renaming new table (c7_wfvulnscanners) to final table name (wp_wfvulnscanners)
+Search and replacing table: wp_wfvulnscanners: rows: 0
+Processing table (InnoDB): wp_xsg_sitemap_meta - will restore as: c7_xsg_sitemap_meta
+Atomic restore: dropping original table (wp_xsg_sitemap_meta)
+Atomic restore: renaming new table (c7_xsg_sitemap_meta) to final table name (wp_xsg_sitemap_meta)
+Search and replacing table: wp_xsg_sitemap_meta: rows: 45
+Processing table (InnoDB): wp_yoast_indexable - will restore as: c7_yoast_indexable
+Atomic restore: dropping original table (wp_yoast_indexable)
+Atomic restore: renaming new table (c7_yoast_indexable) to final table name (wp_yoast_indexable)
+Search and replacing table: wp_yoast_indexable: rows: 1666
+Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: c7_yoast_indexable_hierarchy
+Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+Atomic restore: renaming new table (c7_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+Search and replacing table: wp_yoast_indexable_hierarchy: rows: 1666
+Processing table (InnoDB): wp_yoast_migrations - will restore as: c7_yoast_migrations
+Atomic restore: dropping original table (wp_yoast_migrations)
+Atomic restore: renaming new table (c7_yoast_migrations) to final table name (wp_yoast_migrations)
+Search and replacing table: wp_yoast_migrations: rows: 23
+Processing table (InnoDB): wp_yoast_primary_term - will restore as: c7_yoast_primary_term
+Atomic restore: dropping original table (wp_yoast_primary_term)
+Atomic restore: renaming new table (c7_yoast_primary_term) to final table name (wp_yoast_primary_term)
+Search and replacing table: wp_yoast_primary_term: rows: 7
+Processing table (InnoDB): wp_yoast_seo_links - will restore as: c7_yoast_seo_links
+Atomic restore: dropping original table (wp_yoast_seo_links)
+Atomic restore: renaming new table (c7_yoast_seo_links) to final table name (wp_yoast_seo_links)
+Search and replacing table: wp_yoast_seo_links: rows: 271
+Processing table (InnoDB): wp_yoast_seo_meta - will restore as: c7_yoast_seo_meta
+Disabling Maintenance mode&#8230;
+Atomic restore: dropping original table (wp_yoast_seo_meta)
+Atomic restore: renaming new table (c7_yoast_seo_meta) to final table name (wp_yoast_seo_meta)
+WordPress database error: [Key 'PRIMARY' doesn't exist in table 'wp_yoast_seo_meta']
+SELECT COUNT(*) FROM wp_yoast_seo_meta USE INDEX (PRIMARY)
+
+Search and replacing table: wp_yoast_seo_meta: rows: 217
+Finished: lines processed: 368 in 48.62 seconds
+Cleaning up rubbish...
+Plugins
+Unpacking backup... (backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-plugins.zip, 40 MB)
+Unzip progress: 1439 out of 9176 files (654 B, plugins/akismet/.htaccess)
+Unzip progress: 2440 out of 9176 files (11.1 MB, plugins/cleantalk-spam-protect/js/cleantalk-dashboard-widget.min.js.map)
+Unzip progress: 3441 out of 9176 files (19.7 MB, plugins/duplicator/views/tools/diagnostics/inc.validator.php)
+Unzip progress: 4442 out of 9176 files (37.3 MB, plugins/updraftplus/images/aws_logo.png)
+Unzip progress: 5443 out of 9176 files (58.8 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Exceptions/UpdateError.php)
+Unzip progress: 6444 out of 9176 files (74.6 MB, plugins/wordpress-seo/admin/notifiers/dismissible-notification.php)
+Unzip progress: 7445 out of 9176 files (85.3 MB, plugins/wordpress-seo/src/values/indexables/indexable-builder-versions.php)
+Unzip progress: 8446 out of 9176 files (92.9 MB, plugins/wp-mail-smtp/vendor_prefixed/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php)
+Unzip progress: 9176 out of 9176 files (105.3 MB, plugins/wp-smushit/_src/scss/resize-detection.scss)
+Moving old data out of the way...
+Moving unpacked backup into place...
+Cleaning up rubbish...
+Themes
+Unpacking backup... (backup_2023-06-30-1532_Foetron_IT_Product_amp_Securi_6af10157e82f-themes.zip, 11.4 MB)
+Unzip progress: 1002 out of 1052 files (15 MB, themes/twentytwentytwo/inc/patterns/header-stacked.php)
+Unzip progress: 1052 out of 1052 files (15.3 MB, themes/twentytwentytwo/theme.json)
+Moving old data out of the way...
+Moving unpacked backup into place...
+Failed to move directory (check your file permissions and disk quota): C:/xampp/htdocs/wordpress/wp-content/upgrade/cb6a468e/themes/twentynineteen/sass -&gt; C:/xampp/htdocs/wordpress/wp-content/themes/twentynineteen/sass
+Error message: Could not move the files into place. Check your file permissions.
+Error data: C:/xampp/htdocs/wordpress/wp-content/upgrade/cb6a468e/themes/twentynineteen -> C:/xampp/htdocs/wordpress/wp-content/themes/twentynineteen
